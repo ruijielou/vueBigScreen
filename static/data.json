@@ -1,0 +1,78 @@
+{
+  "qlikfirst": [
+    {
+      "CertificateReadMode": 2,
+      "Certificates": null,
+      "DefaultUserDictionary": "IZ0BNP84TKMWRWZ",
+      "ID": "3f8c01dc-1a40-444a-8a23-b7f5ae3d9b5e",
+      "InterfaceBaseUri": null,
+      "IsCrackUsersAuthorization": false,
+      "IsDomainRedirect": true,
+      "PassWord": null,
+      "ProductName": "Qlik Sense111",
+      "ProductType": 1,
+      "ServerDomainName": "http://139.196.146.101/",
+      "ServerUri": "139.196.146.101",
+      "UserName": null,
+      "Version": "v1",
+      "VirtualProxy": null
+    }
+  ],
+  "qliksecond": [
+    {
+      "ServerUri": "10.28.98.105",
+      "ServerDomainName": "http://portal.ebistrategy.com:8060",
+      "IsDomainRedirect": true,
+      "Trusted_Hosts": "10.28.98.105",
+      "AdminUserName": null,
+      "AdminPassword": null,
+      "RestVersion": "2.5",
+      "SiteID": "1a10f5b9-029b-43e4-a620-773d1690338c",
+      "SiteCode": null,
+      "SiteName": null,
+      "IsCrackUsersAuthorization": true,
+      "ID": "01569f84-aef6-42dd-b163-ace0da845415",
+      "ProductType": 3,
+      "ProductName": "TableauHome",
+      "Version": "10.2"
+    }
+  ],
+  "tableaufirst": [
+    {
+      "AdminPassword": null,
+      "AdminUserName": null,
+      "ID": "01569f84-aef6-42dd-b163-ace0da845415",
+      "IsCrackUsersAuthorization": true,
+      "IsDomainRedirect": true,
+      "ProductName": "TableauHome",
+      "ProductType": 3,
+      "RestVersion": "2.5",
+      "ServerDomainName": "http://portal.ebistrategy.com:8060",
+      "ServerUri": "10.28.98.105",
+      "SiteCode": null,
+      "SiteID": "1a10f5b9-029b-43e4-a620-773d1690338c",
+      "SiteName": "Default",
+      "Trusted_Hosts": "10.28.98.105",
+      "Version": "10.2"
+    }
+  ],
+  "tableausecond": [
+    {
+      "ServerUri": "10.28.98.105",
+      "ServerDomainName": "http://portal.ebistrategy.com:8060",
+      "IsDomainRedirect": true,
+      "Trusted_Hosts": "10.28.98.105",
+      "AdminUserName": null,
+      "AdminPassword": null,
+      "RestVersion": "2.5",
+      "SiteID": "1a10f5b9-029b-43e4-a620-773d1690338c",
+      "SiteCode": null,
+      "SiteName": null,
+      "IsCrackUsersAuthorization": true,
+      "ID": "01569f84-aef6-42dd-b163-ace0da845415",
+      "ProductType": 3,
+      "ProductName": "TableauHome",
+      "Version": "10.2"
+    }
+  ]
+}

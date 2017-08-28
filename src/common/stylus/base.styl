@@ -1,0 +1,46 @@
+body, html
+  line-height: 1
+  font-weight: 200
+  font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif
+a 
+  text-decoration: none
+.clearfix
+  display: inline-block
+  &:after
+    display: block
+    content: "."
+    height: 0
+    line-height: 0
+    clear: both
+    visibility: hidden
+
+@media (-webkit-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5)
+  .border-1px
+    &::after
+      -webkit-transform: scaleY(0.7)
+      transform: scaleY(0.7)
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-device-pixel-ratio: 2)
+  .border-1px
+    &::after
+      -webkit-transform: scaleY(0.5)
+      transform: scaleY(0.5)
+.btn 
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    background: #3396CE;
+    color: #FFF;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    text-shadow: 0 -1px rgba(0,0,0,0.15);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px
+    -webkit-appearance: none;
+.btn:hover
+    background: #007CC2;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+.btn:active
+    box-shadow: inset 0px 2px 3px rgba(0,0,0,0.3), 0px 1px 0 #fff;
+  
